@@ -1,0 +1,57 @@
+# OS and editors
+.DS_Store
+.AppleDouble/
+__MACOSX/
+._*
+.idea/
+.vscode/
+*.swp
+# Credentials and local configuration
+.env
+.env.*
+wp-config.php
+wp-config-*.php
+.htaccess
+.htpasswd
+*.pem
+*.key
+*.p12
+*.pfx
+# Customer media: only explicitly reviewed placeholders are public
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.avif
+*.heic
+*.ico
+*.svg
+!themes/krym-sea/assets/img/placeholder.svg
+!plugins/krym-room-photos/assets/placeholder.svg
+*.pdf
+*.mp4
+*.mov
+*.mp3
+plugins/krym-room-photos/assets/images/
+# WordPress installation and private exports
+wp-admin/
+wp-includes/
+wp-content/
+uploads/
+backups/
+cache/
+*.sql
+*.sql.*
+*.sqlite*
+*.zip
+*.tar
+*.gz
+*.7z
+*.bak
+*.old
+*.log
+# Dependencies and local output
+node_modules/
+vendor/
+coverage/
